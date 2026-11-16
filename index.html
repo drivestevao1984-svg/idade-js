@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Verificador de Idade</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="card">
+
+            <h1>Verificador de Idade</h1>
+
+            <p class="descricao">
+                Informe sua idade para verificar a maioridade.
+            </p>
+
+            <label for="idade">
+                Idade:
+            </label>
+
+            <input
+                type="number"
+                id="idade"
+                placeholder="Digite sua idade"
+                min="0"
+            >
+
+            <button id="btnVerificar">
+                Verificar
+            </button>
+
+            <p id="mensagem" class="mensagem">
+                Resultado aparecerá aqui.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Primeiro carregamos a função -->
+    <script src="idade.js"></script>
+
+    <!-- Depois carregamos a interação da página -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
